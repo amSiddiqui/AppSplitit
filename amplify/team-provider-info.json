@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-splitit-staging-144804-authRole",
+      "UnauthRoleArn": "arn:aws:iam::736435290091:role/amplify-splitit-staging-144804-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::736435290091:role/amplify-splitit-staging-144804-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-splitit-staging-144804-deployment",
+      "UnauthRoleName": "amplify-splitit-staging-144804-unauthRole",
+      "StackName": "amplify-splitit-staging-144804",
+      "StackId": "arn:aws:cloudformation:eu-west-2:736435290091:stack/amplify-splitit-staging-144804/051b41e0-e2af-11ed-86e7-02154606118a",
+      "AmplifyAppId": "d1pzwohe3qwxor"
+    },
+    "categories": {
+      "auth": {
+        "SplitIt": {}
+      }
+    }
+  }
+}
