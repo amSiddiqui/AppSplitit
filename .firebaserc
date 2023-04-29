@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "splitit-d7663"
+  },
+  "targets": {
+    "splitit-d7663": {
+      "hosting": {
+        "app-splitit": [
+          "splitit-d7663"
+        ]
+      }
+    }
+  }
+}

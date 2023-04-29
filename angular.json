@@ -93,6 +93,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "app-splitit:build:production",
+            "firebaseProject": "splitit-d7663",
+            "firebaseHostingSite": "splitit-d7663"
+          }
         }
       }
     }
