@@ -8,10 +8,6 @@ import { AppComponent } from './app.component';
 import { LoginModule } from './login/login.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -23,10 +19,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatButtonModule,
-    MatIconModule,
-    MatFormFieldModule,
-    MatInputModule,
     BrowserAnimationsModule,
     LoginModule,
     DashboardModule
